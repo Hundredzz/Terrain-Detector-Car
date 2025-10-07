@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400..700;1,400..700&display=swap');
+
+*,html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.bghome{
+    width: 100%;
+    height: 200vh;
+    background:linear-gradient(#19E2FE,#1C7EDBF7,#1F19B7F0);
+    position: relative;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.svgtext{
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+}
+.svgwave{
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    top: 0px;
+    right: 0px;
+}
+h1{
+    font-size: 48px;
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+}
+p{
+    font-size: 32px;
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+.into-text{
+    display: flex;
+    width: 849px;
+    gap: 25px;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 15%;
+    right: 12%;
+}
+.svgcircle{
+    position: absolute;
+    top: 46%;
+    right: 0px;
+}
+.pagetwo{
+    padding: 11.111111111111% 12.152777777777% 11.111111111111% 12.152777777777%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.bgtwo{
+    padding: 20px 0px 20px 0px;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 80%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    gap: 25px;
+}
+.bg{
+    background-color: #97B4E9;
+    width: 100%;
+    height: 33.3%;
+}
+.bg2{
+    background-color: #97B4E9;
+    width: 100%;
+    height: 100%;
+}
