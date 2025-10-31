@@ -152,12 +152,12 @@ p{
     justify-content: center;
     align-items: center;
     padding: 1%;
-    width: 50%;
+    width: 68%;
     height: 100%;
     gap: 25px;
 }
 .nametools{
-    font-size: 26px;
+    font-size: 24px;
     font-family: "Finlandica", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
