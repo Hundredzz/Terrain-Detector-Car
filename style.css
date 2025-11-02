@@ -133,7 +133,7 @@ p{
 }
 .box2-3 h2:hover{
     font-size: 38px;
-    color: #000000f7;
+    color: white;
     transition: all ease-in 0.2s;
 }
 h2{
@@ -161,6 +161,57 @@ h3{
     width: 80%;
     height: 100%;
     border-radius: 5px;
+}
+.box4big h2{
+    margin-top : 5px;
+    font-size: 34px;
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+.box4big h3{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top : 10px;
+    font-size: 26px;
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+.box4big p{
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top : 5px;
+    font-size: 18px;
+    font-family: "Finlandica", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    cursor: pointer;
+}
+.box4big a h3{
+    color: #1369b9f7;;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+.box4big a h3:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+.box4big .sub{
+    text-align: left;
+    padding-left: 23px; 
+    padding-right: 5px;
 }
 pre {
   background-color: white;
