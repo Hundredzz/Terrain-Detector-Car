@@ -9,9 +9,9 @@
 ## ความน่าสนใจของโปรเจกต์
 โปรเจกต์นี้เป็นการออกแบบและทำตัวอย่างรถที่สามารถวัดและแสดงความเสถียรของพื้นผิวถนน ซึ่งสามารถนำไปพัฒนาต่อเป็นรถจริงเพื่อวัดผลและนำไปใช้ประโยชน์ได้บนถนนจริง
 ## ส่วนประกาบหลัก
-1.Arduino Uno R4 WIFI
-2.Ultrasonic Sensor
-3.L293D Motor Drive
-4.Button Switch
-5.LCD 1602 + I2C
+1.Arduino Uno R4 WIFI  
+2.Ultrasonic Sensor  
+3.L293D Motor Drive  
+4.Button Switch  
+5.LCD 1602 + I2C  
 ## ขั้นตอนการทำงาน
