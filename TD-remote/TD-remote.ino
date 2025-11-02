@@ -4,8 +4,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const char WIFI_SSID[] = "NEROROSE";     // CHANGE TO YOUR WIFI SSID
-const char WIFI_PASSWORD[] = "BlackRose";  // CHANGE TO YOUR WIFI PASSWORD
+const char WIFI_SSID[] = "";     // CHANGE TO YOUR WIFI SSID
+const char WIFI_PASSWORD[] = "";  // CHANGE TO YOUR WIFI PASSWORD
 
 const char MQTT_BROKER_ADRRESS[] = "mqtt-dashboard.com";  // CHANGE TO MQTT BROKER'S ADDRESS
 //const char MQTT_BROKER_ADRRESS[] = "192.168.0.11";  // CHANGE TO MQTT BROKER'S IP ADDRESS
@@ -15,10 +15,10 @@ const char MQTT_USERNAME[] = "";              // CHANGE IT IF REQUIRED, empty if
 const char MQTT_PASSWORD[] = "";              // CHANGE IT IF REQUIRED, empty if not required
 
 // The MQTT topics that Arduino should publish/subscribe
-const char PUBLISH_TOPIC[] = "TD-car/car";       // CHANGE IT AS YOU DESIRE
-const char SUBSCRIBE_TOPIC[] = "TD-car/remote";  // CHANGE IT AS YOU DESIRE
+const char PUBLISH_TOPIC[] = "TD-car/car";       // topic สำหรับส่งค่าให้รถ
+const char SUBSCRIBE_TOPIC[] = "TD-car/remote";  // topic สำหรับรับค่าจากรถ
 
-const int PUBLISH_INTERVAL = 100;  // 5 seconds
+const int PUBLISH_INTERVAL = 100;  // 100 millisec
 
 WiFiClient network;
 MQTTClient mqtt = MQTTClient(256);
@@ -128,7 +128,10 @@ void messageReceived(String &topic, String &payload) {
   lcd.setCursor(0, 0);
   if(payload == "smooth"){
     lcd.print("smooth  ");
-  }else{
+  }else if(payload == "block"){
+    lcd.print("Blocked!");
+  }
+  else{
     lcd.print("ROUGH!!!");
   }
   lcd.write(byte(6)); 
