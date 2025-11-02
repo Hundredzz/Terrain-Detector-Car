@@ -1,4 +1,6 @@
 # Physical Computing Project 2025 - IT KMITL
+# ชื่อ Project
+  TERRAIN DETECTOR CAR MODEL (โมเดลจำลองรถตรวจสภาพพื้นผิวถนน)
 # สมาชิก
   67070199 อสิธารา พุ่มดอกไม้  
   67070155 วรรณณิศา อมรวงศ์ไพบูลย์  
